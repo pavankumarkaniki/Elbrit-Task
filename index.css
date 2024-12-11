@@ -486,3 +486,150 @@ li {
     text-decoration-skip-ink: none;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .logo-img {
+        height: 20px;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .bg-container {
+        height: auto;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .heading {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .top-container {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .des {
+        font-size: 8px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .info-con {
+        height: auto;
+        gap: 10px;
+    }
+
+    .info-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .info-des {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .explore {
+        width: 150px;
+        height: 45px;
+    }
+
+    .img-med {
+        width: 200px;
+        height: 200px;
+    }
+
+    .con-top {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    .sec-con-first-container,
+    .sec-con-sec-container {
+        width: 100%;
+    }
+
+    .sec-con-title {
+        font-size: 20px;
+    }
+
+    .sec-con-des {
+        font-size: 12px;
+    }
+
+    .see-more {
+        font-size: 14px;
+    }
+
+    .our-blog-text {
+        font-size: 16px;
+    }
+
+    .news-text {
+        font-size: 24px;
+    }
+
+    .last-container {
+        flex-direction: column;
+    }
+
+    .last-container h1,
+    .last-container p {
+        font-size: 12px;
+    }
+
+    .list-1,
+    .list-2,
+    .list-3,
+    .list-4,
+    .list-5,
+    .list-6,
+    .list-8 {
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .item-para-2 {
+        font-size: 10px;
+    }
+
+    .item-para {
+        font-size: 10px;
+    }
+
+    .footer-list-item {
+        padding: 14px;
+        width: 100%;
+    }
+
+    .footer-lists-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .copy-right-text {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
